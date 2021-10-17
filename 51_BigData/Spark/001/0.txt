@@ -1,0 +1,8 @@
+
+DOCUMENTATION DOWNLOAD COMMUNITY LIBRARIES CONTRIBUTE BLOG
+SCALA 2.12.10
+2.12.10
+Release Notes
+•
+Changelog
+The most popular way to get Scala is either using Scala through sbt, the Scala build tool, or to use Scala through an IDE.
