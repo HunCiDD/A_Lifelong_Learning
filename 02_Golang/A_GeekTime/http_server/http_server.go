@@ -34,9 +34,10 @@ func (m *MyHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	fmt.Println("开始进行....")
 	mh := MyHandler{}
 	server := http.Server{
-		Addr:    "localhost:8080",
+		Addr:    ":8080",
 		Handler: &mh,
 	}
 	server.ListenAndServe()
